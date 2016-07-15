@@ -36,7 +36,7 @@ public class MainChatActivity extends AppCompatActivity {
         mSendButton = (ImageButton) findViewById(R.id.sendButton);
         mChatListView = (ListView) findViewById(R.id.chat_list_view);
 
-        // TODO: Send the message when the soft keyboard "Enter" button is pressed
+        // TODO: Send the message when the "enter" button is pressed
 
 
         // TODO: Add an OnClickListener to the sendButton to send a message
