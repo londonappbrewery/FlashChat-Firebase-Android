@@ -125,7 +125,7 @@ public class RegisterActivity extends AppCompatActivity {
     // TODO: Save the display name to Shared Preferences
 
 
-    // TODO>: Create an alert dialog to show in case registration failed
+    // TODO: Create an alert dialog to show in case registration failed
 
 
 
