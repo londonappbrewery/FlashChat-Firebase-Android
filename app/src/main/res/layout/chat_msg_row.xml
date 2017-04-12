@@ -3,17 +3,14 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content" >
-
-    <LinearLayout
-        android:id="@+id/singleMessageContainer"
-        android:layout_width="fill_parent"
-        android:orientation="vertical"
-        android:layout_height="wrap_content" >
+    android:layout_height="wrap_content"
+    android:id="@+id/singleMessageContainer"
+    android:orientation="vertical">
 
         <TextView
             android:id="@+id/author"
             android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:layout_gravity="start"
             android:textColor="@color/green"
             android:gravity="center_vertical"
@@ -33,9 +30,8 @@
             android:layout_margin="5dip"
             android:padding="10dp"
             android:textSize="15sp"
-            android:text="Hello!"
+            android:text="@string/sample_message"
             android:textColor="@android:color/primary_text_light"
             />
-    </LinearLayout>
 
 </LinearLayout>
