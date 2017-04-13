@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.londonappbrewery.flashchatnewfirebase"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest
+    package="com.londonappbrewery.flashchatnewfirebase"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -21,17 +22,17 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
 
         <activity
-            android:screenOrientation="portrait"
-            android:name=".RegisterActivity" >
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait">
         </activity>
 
         <activity
+            android:name=".MainChatActivity"
             android:screenOrientation="portrait"
-            android:name=".MainChatActivity" >
+            android:windowSoftInputMode="stateHidden|adjustResize">
         </activity>
 
     </application>
