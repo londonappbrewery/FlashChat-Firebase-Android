@@ -50,7 +50,7 @@ public class RegisterActivity extends AppCompatActivity {
         mConfirmPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
-                if (id == R.id.register_form_finished || id == EditorInfo.IME_NULL) {
+                if (id == R.integer.register_form_finished || id == EditorInfo.IME_NULL) {
                     attemptRegistration();
                     return true;
                 }

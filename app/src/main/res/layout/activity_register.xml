@@ -93,7 +93,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/prompt_password_again"
-                android:imeActionId="@+id/register_form_finished"
+                android:imeActionId="@integer/register_form_finished"
                 android:imeActionLabel="@string/action_sign_up"
                 android:imeOptions="actionUnspecified"
                 android:inputType="textPassword"
