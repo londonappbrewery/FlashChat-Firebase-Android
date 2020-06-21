@@ -14,7 +14,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 
-
 public class MainChatActivity extends AppCompatActivity {
 
     // TODO: Add member variables here:

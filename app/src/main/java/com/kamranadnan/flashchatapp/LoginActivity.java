@@ -14,9 +14,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
-
-
 public class LoginActivity extends AppCompatActivity {
 
     // TODO: Add member variables here:
@@ -48,7 +45,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     // Executed when Sign in button pressed
-    public void signInExistingUser(View v)   {
+    public void signInExistingUser(View v) {
         // TODO: Call attemptLogin() here
 
     }
@@ -67,11 +64,9 @@ public class LoginActivity extends AppCompatActivity {
         // TODO: Use FirebaseAuth to sign in with email & password
 
 
-
     }
 
     // TODO: Show error on screen with an alert dialog
-
 
 
 }

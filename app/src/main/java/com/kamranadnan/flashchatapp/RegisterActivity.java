@@ -17,8 +17,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-
-
 public class RegisterActivity extends AppCompatActivity {
 
     // Constants
@@ -33,7 +31,6 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText mConfirmPasswordView;
 
     // Firebase instance variables
-
 
 
     @Override
@@ -126,8 +123,6 @@ public class RegisterActivity extends AppCompatActivity {
 
 
     // TODO: Create an alert dialog to show in case registration failed
-
-
 
 
 }
