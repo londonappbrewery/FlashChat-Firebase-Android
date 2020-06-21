@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
 
     defaultConfig {
-        applicationId "com.londonappbrewery.flashchatnewfirebase"
+        applicationId "com.kamranadnan.flashchatapp"
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1

@@ -1,4 +1,4 @@
-package com.londonappbrewery.flashchatnewfirebase;
+package com.kamranadnan.flashchatapp;
 
 import android.content.SharedPreferences;
 import android.database.DataSetObserver;
